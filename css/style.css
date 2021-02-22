@@ -237,6 +237,7 @@ main{
 position: fixed;
 height:80px;
 left:250px;
+right:0;
 z-index: 60;
 flex-shrink: 0;
 align-items: center;
