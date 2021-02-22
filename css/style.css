@@ -19,73 +19,7 @@ aside{
   overflow:auto;
   width:250px;
 }
-@media screen and (max-width:600px){
-  .logo-titolo,
-  .casa-1,
-  .search-1,
-  .book-1,
-  .spazio-2,
-  .scroll-nav,
-  .linea-hr{
-    visibility:hidden;
-  }
-  .nav-laterale{
-    background-color: #050202;
-    height:100vh;
-    overflow:auto;
-    width:100px;
 
-  }
-  .casa,.search,.book,{
-    margin-left:5px;
-  }
-  .casa22{
-    margin-left:20px;
-  }
-  /* nav bass */
-  .titolo-nav-bass{
-    visibility: hidden;
-    display:none;
-
-  }
-
-  .nav-bassa{
-    flex-basis: 10%;
-
-  }
-  main{
-    width:calc(100% - 100px);
-    margin-left:100px;
-    padding:30px;
-  }
-  .nav-superiore{
-  position: fixed;
-  height:80px;
-  left:100px;
-  z-index: 60;
-  flex-shrink: 0;
-  align-items: center;
-  top:0;
-  background-color: #1D1D1D;
-
-  }
-  .fff,.lineas-b{
-    visibility: hidden;
-    display: none;
-  }
-
-  .lineas-b{
-    width: 5px;
-    height: 5px;
-    width: 100%;
-    background-color: lightgrey;
-  }
-  /* main */
-  .titolo-right{
-    display: none;
-    visibility: hidden;
-  }
-}
 .fles{
     display: flex;
 }
@@ -209,7 +143,7 @@ background: linear-gradient(338deg, rgba(255,255,255,1) 0%, rgba(119,83,171,1) 7
   color:lightgrey;
 }
 .artisti1{
-line-height: 5px;
+line-height: 15px;
 }
 .cuoricino{
   padding-left:15px;
@@ -473,3 +407,141 @@ background-color: #1D1D1D;
   display:flex;
   width: 100%;
 }
+
+@media screen and (max-width:1000px)
+{
+  .artisti{
+    display:none;
+    }
+  .artisti1{
+    line-height: 15px;
+    font-size: 10px;
+  }
+  .containr{
+    padding:10px;
+    width:46%;
+    position: relative;
+    margin-right:2%;
+    transition: background 0.6s;
+    background-color:#1D1D1D;
+    margin:auto;
+  }
+  .flex-flex{
+    flex-wrap: wrap;
+  }
+   }
+   @media screen and (max-width:700px){
+    .titolo-right{
+      display:none;
+    }
+   }
+   @media screen and (max-width:600px){
+     .logo-titolo,
+     .casa-1,
+     .search-1,
+     .book-1,
+     .spazio-2,
+     .scroll-nav,
+     .linea-hr{
+       visibility:hidden;
+     }
+     .nav-laterale{
+       background-color: #050202;
+       height:100vh;
+       overflow:auto;
+       width:100px;
+
+     }
+     .casa,.search,.book,{
+       margin-left:5px;
+     }
+     .casa22{
+       margin-left:20px;
+     }
+     /* nav bass */
+     .titolo-nav-bass{
+       visibility: hidden;
+       display:none;
+
+     }
+
+     .nav-bassa{
+       flex-basis: 10%;
+
+     }
+     main{
+       width:calc(100% - 100px);
+       margin-left:100px;
+       padding:30px;
+     }
+     .nav-superiore{
+     position: fixed;
+     height:80px;
+     left:100px;
+     z-index: 60;
+     flex-shrink: 0;
+     align-items: center;
+     top:0;
+     right:0;
+     background-color: #1D1D1D;
+
+     }
+     .fff,.lineas-b{
+       visibility: hidden;
+       display: none;
+     }
+
+     .lineas-b{
+       width: 5px;
+       height: 5px;
+       width: 100%;
+       background-color: lightgrey;
+     }
+     /* main */
+     .titolo-right{
+       display: none;
+       visibility: hidden;
+     }
+     .frecciettina1,
+     .frecciettina2,.cerca-search1,.cerca-search2{
+       display:none;
+     }
+     .containr{
+       padding:10px;
+       width:98%;
+       position: relative;
+       margin:auto;
+       transition: background 0.6s;
+       background-color:#1D1D1D;
+     }
+     .flex-flex{
+       flex-wrap: wrap;
+
+     }
+   }
+    @media screen and (max-width:600px){
+        .titolo-left h3{
+          font-size:20px;
+        }
+        .titolo-left p{
+          display:none;
+        }
+      }
+   @media screen and (max-width:350px){
+     .nav-bassa{
+       display:none;
+     }
+     .linea-play{
+
+       width:100%;
+     }
+     .volume{
+       display:none;
+     }
+     .fles{
+         display: block;
+     }
+     .nav-bass-n{
+       bottom:0;
+     }
+   }
