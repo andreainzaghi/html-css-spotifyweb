@@ -518,15 +518,14 @@ background-color: #1D1D1D;
        flex-wrap: wrap;
 
      }
+     .titolo-left h3{
+       font-size:20px;
+     }
+     .titolo-left p{
+       display:none;
+     }
    }
-    @media screen and (max-width:600px){
-        .titolo-left h3{
-          font-size:20px;
-        }
-        .titolo-left p{
-          display:none;
-        }
-      }
+
    @media screen and (max-width:350px){
      .nav-bassa{
        display:none;
@@ -542,6 +541,35 @@ background-color: #1D1D1D;
          display: block;
      }
      .nav-bass-n{
-       bottom:0;
+      top:calc(100% - 90px);
+      right:0;
+      left:0;
+     }
+     aside{
+       display:none;
+     }
+     main{
+       width:100%;
+       margin:auto;
+
+
+     }
+     .nav-superiore{
+       left: 0;
+     }
+     .containr{
+       padding:10px;
+       width:100%;
+       position: relative;
+       margin:auto;
+       transition: background 0.6s;
+       background-color:#1D1D1D;
+     }
+     .foto-musica{
+       padding:0px;
+
+     }
+     ::-webkit-scrollbar {
+       width: 1px;
      }
    }
