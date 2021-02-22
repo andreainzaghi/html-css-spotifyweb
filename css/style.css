@@ -184,13 +184,20 @@ line-height: 15px;
 }
 /* linea play button */
 .linea-nav-bass-play {
-  width: 5px;
+  width: 40px;
   height: 5px;
   background: green;
 
   transition: width 2s;
 }
+.linea-nav-bass-play1 {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 1px solid black;
+ border-radius: 50%;
 
+}
 .linea-nav-bass-play:active {
   width: 100%;
 }
@@ -198,6 +205,7 @@ line-height: 15px;
   width: 5px;
   height: 5px;
   width: 100%;
+  display: flex;
   background-color: lightgrey;
 }
 .volume{
@@ -213,7 +221,7 @@ line-height: 15px;
     margin: 0px 15px;
 }
 .lineas {
-  width: 5px;
+  width: 35px;
   height: 5px;
   background: green;
 
