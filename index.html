@@ -219,7 +219,7 @@
 
            </video>
       <!-- audio play -->
-           <audio src="audio/a.mpeg" id="myAudio"></audio>
+           <!-- <audio src="audio/a.mpeg" id="myAudio"></audio>
             <button id="myBtn">
              <div class="giradisco">
                <div class="text1"><i class="far fa-play-circle"></i></div>
@@ -229,6 +229,27 @@
                document.getElementById("myAudio").play();
              }
              );
+            </script> -->
+
+
+            <audio src="audio/a.mpeg" id="myAudio"></audio>
+            <button onClick="playMyAudio()">
+                <div class="giradisco">
+                <div class="text1"><i class="far fa-play-circle"></i></div>
+               </div>
+           </button>
+            
+            <p id="audioStatus">Click The Play Button</p>
+            <script>
+            function playMyAudio(){
+              document.getElementById("myAudio").play();
+             document.getElementById("audioStatus").innerHTML="Audio is Playing";
+
+              }
+              function pauseMyAudio(){
+                document.getElementById("myAudio").pause();
+               document.getElementById("audioStatus").innerHTML="Audio Paused";
+              }
             </script>
             <!-- audiuo play -->
            <h5>CLICK ON PLAY BUTTON</h5>
