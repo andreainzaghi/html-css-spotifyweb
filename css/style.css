@@ -437,24 +437,27 @@ background: linear-gradient(338deg, rgba(0,0,0,0.45403163706889005) 0%, rgba(0,0
 
 .text1 {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   position: absolute;
-  top: 42%;
-  left: 42%;
+  top: 40%;
+  left: 40%;
 
-  background-color: green;
-  padding:7px 13px;
-  border-radius: 50%;
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   position: absolute;
-  top: 50%;
-  left: 75%;
-  background-color: green;
-  padding:7px 13px;
-  border-radius: 50%;
+  top: 45%;
+  left: 70%;
+
+}
+.text1 :hover{
+  color: green;
+
+
+}
+.text:hover {
+color: green;
 }
 .flex-flex{
   display:flex;
