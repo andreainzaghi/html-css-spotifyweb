@@ -284,8 +284,16 @@ background-color: #1D1D1D;
  padding-left:10px;
  border-bottom: none;
  border-right: none;
-}
+ color:#fff;
 
+}
+.scroll-nav ul li a{
+text-decoration: none;
+color:#fff;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
 .cerca-search2{
   border-radius: 23px;
   background-color: black;
@@ -394,7 +402,45 @@ background-color: #1D1D1D;
   opacity: 1;
 
 }
+.giradisco{
+  background-color:background: rgb(0,0,0);
+background: linear-gradient(338deg, rgba(0,0,0,0.45403163706889005) 0%, rgba(0,0,0,0.44562827572435226) 100%);;
+  border-radius: 50%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  -webkit-transition: -webkit-transform .50s ease-in-out;
+          transition:         transform .50s ease-in-out;
 
+ transition-duration: 1.5s;
+
+}
+/* img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+} */
+.giradisco:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+   opacity:1;
+}
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+
+  background-color: green;
+  padding:7px 13px;
+  border-radius: 50%;
+}
 .text {
   color: white;
   font-size: 20px;
