@@ -382,8 +382,12 @@ textarea:focus, input:focus{
   display: block;
   width: 100%;
   height: auto;
+  transition: width 1s ;
 }
 
+.image:hover {
+  transform: scale(1.2);
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -403,8 +407,8 @@ textarea:focus, input:focus{
 
 }
 .giradisco{
-  background-color:background: rgb(0,0,0);
-background: linear-gradient(338deg, rgba(0,0,0,0.45403163706889005) 0%, rgba(0,0,0,0.44562827572435226) 100%);;
+  /* background-color:background: rgb(0,0,0);
+background: linear-gradient(338deg, rgba(0,0,0,0.45403163706889005) 0%, rgba(0,0,0,0.44562827572435226) 100%);; */
   border-radius: 50%;
   position:absolute;
   top:0;
@@ -430,6 +434,7 @@ background: linear-gradient(338deg, rgba(0,0,0,0.45403163706889005) 0%, rgba(0,0
           transform: rotate(360deg);
    opacity:1;
 }
+
 .text1 {
   color: white;
   font-size: 20px;
